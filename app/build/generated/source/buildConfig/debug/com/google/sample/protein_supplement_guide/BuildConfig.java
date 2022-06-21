@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.google.sample.cloudvision;
+package com.google.sample.protein_supplement_guide;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");

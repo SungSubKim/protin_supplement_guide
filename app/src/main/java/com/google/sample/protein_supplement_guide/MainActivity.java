@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.sample.cloudvision;
+package com.google.sample.protein_supplement_guide;
 
 import android.Manifest;
 import android.content.Intent;

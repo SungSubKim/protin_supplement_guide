@@ -1,4 +1,4 @@
-package com.google.sample.cloudvision;
+package com.google.sample.protein_supplement_guide;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.sample.cloudvision">
+    package="com.google.sample.protein_supplement_guide">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity"
+        <activity android:name="com.google.sample.protein_supplement_guide.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
         </activity>
         <activity
             android:screenOrientation="portrait"
-            android:name="com.google.sample.cloudvision.MainActivity"
+            android:name="com.google.sample.protein_supplement_guide.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
 <!--            <intent-filter>-->
@@ -31,11 +31,11 @@
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
         </activity>
-        <activity android:name=".MainActivity0"></activity>
-        <activity android:name=".SubActivity1"></activity>
-        <activity android:name=".SubActivity2"></activity>
-        <activity android:name=".SubActivity3"></activity>
-        <activity android:name=".SubActivity4"></activity>
+        <activity android:name="com.google.sample.protein_supplement_guide.MainActivity0"></activity>
+        <activity android:name="com.google.sample.protein_supplement_guide.SubActivity1"></activity>
+        <activity android:name="com.google.sample.protein_supplement_guide.SubActivity2"></activity>
+        <activity android:name="com.google.sample.protein_supplement_guide.SubActivity3"></activity>
+        <activity android:name="com.google.sample.protein_supplement_guide.SubActivity4"></activity>
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -45,7 +45,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths"/>
         </provider>
-        <receiver android:name=".AlarmReceiver"
+        <receiver android:name="com.google.sample.protein_supplement_guide.AlarmReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
